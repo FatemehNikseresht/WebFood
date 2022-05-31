@@ -1,0 +1,56 @@
+.app__navbar {
+  background-color: #000;
+  color:#fff;
+  left: 0;
+  right: 0;
+  top: 0;
+  padding: 1px;
+  text-align: center;
+  position: fixed;
+  z-index: 9999;
+ 
+}
+
+
+.app__navbar-link {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  font-family: 'Roboto Slab',
+  serif;
+  list-style: none;
+ 
+}
+.app__navbar-link li{
+  margin: 0 1rem;
+}
+.app__navbar-link li:hover {
+color: rgb(85, 85, 85);
+}
+
+.app__navbar-item {
+
+  margin: 0.5em;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 700px){
+.app__navbar {
+width: 100%;
+background:linear-gradient(#005235,#01ab6f) ;
+position: absolute;
+z-index: 2;
+}
+.app__navbar li{
+  display: block;
+  margin-top: 10px;
+  margin-bottom:10px;
+}
+}
+
+
+  
+
+

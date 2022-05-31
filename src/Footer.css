@@ -1,0 +1,120 @@
+
+.HeadText{
+    margin-top: 1.5%;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    text-align: center;
+    background: black;
+    color: #e6e6fa;
+    cursor: pointer;
+    font-family: 'Niconne',
+    cursive;
+    position: relative;
+ 
+}
+.HeadText:hover{
+    color:#9afff2b1;
+
+}
+
+
+.chefPicture{
+margin-left: 550px;
+}
+.chef4{
+    border-radius: 80px;
+    width: 160px;
+    height: 150px;
+    margin: 35px;
+    cursor:grab;
+}
+.chef4:hover{
+ box-shadow: -1px 4px 18px 35px #00fddc4a;
+}
+.chef5{
+    border-radius: 80px;
+    width: 160px;
+    height: 150px;
+    margin: 35px;
+    cursor:grab;
+    }
+.chef5:hover {
+    box-shadow: -1px 4px 18px 35px #00fddc4a;
+}
+.chef6 {
+    border-radius: 80px;
+    width: 160px;
+    height: 150px;
+    margin: 35px;
+    cursor:grab;
+}
+
+.chef6:hover {
+    box-shadow: -1px 4px 18px 35px #00fddc4a;
+}
+.chefText{
+font-family: 'Niconne',
+cursive;
+
+}
+.chefText h1{
+ 
+    text-align: center;
+   
+}
+.chefText p {
+    text-align: center;
+    padding: 30px;
+    margin-left: 12%;
+    width: 75%;
+
+    font-size: 25px;
+}
+.button-james {
+border-radius: 80px;
+margin-left: 620px;
+margin-bottom: 20px;
+
+}
+.button-james:hover{
+background-color: #00fddc4a;
+}
+.button-wong{
+border-radius: 80px;
+margin-left: 620px;
+margin-bottom: 20px;
+}
+
+.button-wong:hover {
+    background-color: #00fddc4a;
+}
+.button-Smith{
+border-radius: 80px;
+margin-left: 620px;
+margin-bottom: 20px;
+}
+.button-Smith:hover {
+    background-color: #00fddc4a;
+}
+@media only screen and (max-width: 700px){
+    .chef6 ,
+    .chef5,
+    .chef4
+    {
+   
+      
+      border: 1px solid rgb(161, 161, 161);
+      margin-left: -380px;
+      height: 160px;
+    }
+}
+@media only screen and (max-width: 700px) {
+.button-james,
+.button-wong,
+.button-Smith{
+    
+    margin-left: 200px;
+}
+}
+
+

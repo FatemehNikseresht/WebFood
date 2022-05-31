@@ -1,0 +1,35 @@
+.contact-nav{
+    background-color: #005235;
+    border-top: 2px solid black;
+    height: 100px;
+    padding:40px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+  
+}
+.nav-links{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    list-style: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.308) ;
+   
+    padding: 20px;
+    
+}
+.nav-links li{
+margin: 0 0.70rem;
+cursor: pointer;
+}
+.nav-links li a{
+text-decoration: none;
+color:#fff;
+
+}
+.nav-links li:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    
+}
+
+ 
